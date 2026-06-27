@@ -1,0 +1,27 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #181818;
+    --primario: #e0c46d;
+}
+
+/* html{
+    background-color: var(--negro);
+} */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column; /* apila h2 y h4 en columna */
+    text-transform: uppercase;
+    color: var(--primario);
+}
+
+.logo-texto h4 {
+    margin-top: 0; 
+    text-align: center;
+}
