@@ -1,0 +1,244 @@
+:root{
+    --blanco: #FFFFFF;
+    --negro: #181818;
+    --primario: #a08d53;
+    --dorado: #e0c675;
+    --secundario: #c4bfbf;
+}
+
+html{
+    background-color: var(--negro);
+}
+
+/*imagen principal*/
+.contenido-imagen{
+    padding: 0rem 2rem;
+    position: absolute;
+    /* inset: 0; */
+
+    /* background-color: rgba(0, 0, 0, .7); */
+    /* box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 1); */
+
+    height: 100%;
+    width: 97%;
+
+}
+
+.imagen-principal{
+    background-image: 
+    linear-gradient(to left, transparent 0%, var(--negro) 80%),
+    url(../imagenes/image-principal.jpg);
+    /* background-image: linear-gradient(to left, var(--blanco) 0%, var(--negro) 70%); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 800px;
+
+    position: relative;
+}
+
+/*navegación*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.icono{
+    color: var(--primario);
+    height: 180px;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column; /* apila h2 y h4 en columna */
+    text-transform: uppercase;
+    color: var(--primario);
+}
+
+.logo-texto h4 {
+    margin-top: 0; 
+    text-align: center;
+}
+
+.navegacion{
+    display: flex;
+    margin-left: auto;
+}
+
+.navegacion nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navegacion a{
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 1rem;
+    text-align: center;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0rem 3rem;
+}
+
+@media (min-width: 768px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between; /*para centrar la navegación*/
+        align-items: center; 
+   }
+}
+
+.boton{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    color: var(--primario);
+    background: var(--negro);
+    padding: 1rem;
+    margin-right: 1rem;
+    border: 1px solid var(--primario);
+    border-radius: 0.4rem;
+}
+/*....*/
+
+/*contenido*/
+.contenido{
+    padding: 0rem 2rem;
+}
+
+.subtitulo{
+    text-transform: uppercase;
+    color: var(--primario);
+    font-size: 0.8rem;
+}
+
+.titulo{
+    color: var(--blanco);
+    font-size: 4rem;
+    margin: 0;
+}
+
+.titulo2{
+    color: var(--dorado);
+    font-size: 4rem;
+    margin: 0;
+}
+
+.parrafo{
+    color: var(--secundario);
+}
+
+.parrafo span{
+    display: block;
+    margin-top: 1rem;
+}
+
+.boton-explore{
+    text-transform: uppercase;
+    background: var(--dorado);
+    font-weight: bold;
+    padding: 0.8rem 1rem;
+    font-size: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.boton-watch{
+    text-transform: uppercase;
+    background: var(--negro);
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    font-size: 0.7rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--primario);
+    color: var(--blanco);
+}
+
+/*premium*/
+.premium{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: auto;
+}
+
+.subtitulo1{
+    color: var(--blanco);
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.subtitulo2{
+    color: var(--blanco);
+    /* margin-bottom: 0.8rem; */
+    font-size: 2rem;
+    margin: 0;
+}
+
+/*icono de dinero*/
+.icon{
+    color: var(--dorado);
+    margin-top: 3rem;
+    margin-right: 0.8rem;
+}
+
+/*icono de nota*/
+.icon2{
+    color: var(--dorado);
+    margin-top: 0.5rem;
+}
+
+/*luxury*/
+.luxury{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: auto;
+}
+
+/*happy*/
+.happy{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: auto;
+}
+
+.contenido1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 30%;
+}
+
+/*experience excellence*/
+.experiencia{
+    color: var(--primario);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.titulo-premium{
+    color: var(--blanco);
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.parrafo-premium{
+    color: var(--secundario);
+    text-align: center;
+}
+
+.parrafo-premium span{
+    display: block;
+    margin-top: 1rem;
+}
+
