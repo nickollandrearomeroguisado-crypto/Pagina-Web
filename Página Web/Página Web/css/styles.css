@@ -90,12 +90,27 @@ header {
     padding: 0rem 3rem;
 }
 
-@media (min-width: 768px) {
-    header{
-        flex-direction: row;
-        justify-content: space-between; /*para centrar la navegación*/
-        align-items: center; 
+@media (max-width: 768px) {
+    .navegacion nav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
    }
+
+   .navegacion a{
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        margin-right: 20rem;
+   }
+
+   .navegacion{
+        margin-top: 10rem;
+   }
+
+   /* .boton{
+        margin-right: 20rem;
+   } */
+
 }
 
 .boton{
