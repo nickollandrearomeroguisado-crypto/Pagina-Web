@@ -29,7 +29,7 @@ html{
 .imagen-principal{
     background-image: 
     linear-gradient(to left, transparent 0%, var(--negro) 80%),
-    url(../imagenes/image-principal.jpg);
+    url(./image-principal.jpg);
     /* background-image: linear-gradient(to left, var(--blanco) 0%, var(--negro) 70%); */
     background-repeat: no-repeat;
     background-size: cover;
