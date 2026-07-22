@@ -433,7 +433,7 @@ header {
 .imagen-aston{
     background-image: 
     linear-gradient(to bottom, transparent 0%, var(--negro) 85%),
-    url(./imagen1.jpg);
+    url(../imagen1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -529,7 +529,7 @@ main h5{
 .imagen-rolls{
     background-image: 
     linear-gradient(to bottom, transparent 0%, var(--negro) 85%),
-    url(./imagen2.jpg);
+    url(../imagen2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -544,7 +544,7 @@ main h5{
 .imagen-ferrari{
     background-image: 
     linear-gradient(to bottom, transparent 0%, var(--negro) 85%),
-    url(./imagen3.jpg);
+    url(../imagen3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -597,7 +597,7 @@ main h5{
 
 /*parte final*/
 .imagen-final{
-     background-image: url(./imagen-final.jpg);
+     background-image: url(../imagen-final.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
