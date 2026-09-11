@@ -14,7 +14,7 @@ html{
 
 /*imagen principal*/
 .contenido-imagen{
-    padding: 0rem 2rem;
+    /* padding: 0rem 2rem; */
     position: absolute;
     /* inset: 0; */
 
@@ -42,8 +42,8 @@ html{
 
 @media (max-width: 768px) {
     .imagen-principal{
-        width: 470px;
-        height: 900px;
+        width: 415px;
+        height: 930px;
     }
 }
 
@@ -310,11 +310,11 @@ header {
         display: block;
         margin-top: 28rem;
         text-align: center;
-        margin-left: 7rem;
+        margin-left: 0rem;
     }
 
     .parrafo-premium{
-        margin-left: 7rem;
+        margin-left: 0rem;
     }
 
 }
@@ -379,14 +379,27 @@ header {
     .caja{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 7rem; 
+        margin-left: 0rem; 
     }
 
     .caja1, .caja2, .caja3, .caja4{
-        margin: 1rem; 
+        margin: 1rem;  
+        /* margin-top: 1rem;
+        margin-bottom: 1rem; */
     }
 
-    .caja2, .caja3{
+    /* .caja1{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .caja2{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    } */
+
+
+    .caja1, .caja2, .caja3, .caja4{
         padding-left: 2rem;
     }
 }
@@ -453,7 +466,7 @@ header {
 
 .icon-corazon1{
     color: var(--blanco);
-    margin-left: 18.4rem;
+    margin-left: 24rem;
 }
 
 .modelo-precio{
@@ -556,7 +569,7 @@ main h5{
 }
 
 /*coleccion de carros*/
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .collection{
         display: block;
         text-align: center;
@@ -572,27 +585,50 @@ main h5{
     }
 
     .imagen-aston{
-        width: 430px; 
-        margin-right: 7rem;
+        width: 350px; 
+        margin-right: 0rem;
     }
 
     .imagen-rolls{
         margin-top: 13rem;
-        width: 430px; 
-        margin-right: 7rem; 
+        width: 350px; 
+        margin-right: 0rem; 
     }
 
     .imagen-ferrari{
         margin-top: 13rem;
-        width: 430px;
-        margin-right: 7rem;  
+        width: 350px;
+        margin-right: 0rem;  
     }
 
     .linea{
         margin: 0rem 1rem;
-        letter-spacing: -0.3px; /*para reducir lineas*/
+        letter-spacing: -0.7px; /*para reducir lineas*/
     }
 
+    .icon-corazon{
+        margin-right: 8rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .icon-corazon1{
+        margin-left: 8rem;
+    }
+
+    .flecha-boton{
+        margin-left: 4rem;
+    }
+
+    .collection{
+        margin-left: 2rem;
+    }
+
+    .collection h4{
+        width: 0px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 /*parte final*/
@@ -636,15 +672,16 @@ main h5{
 }
 
 /*parte final*/
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     
     .imagen-final{
-        width: 470px;
+        width: 410px;
         height: 900px;
     }
     
     .imagen-final h2{
         text-align: center;
+        margin-top: 15rem; 
     }
 
     .caja-final{
@@ -657,7 +694,7 @@ main h5{
     }
 
     .footer{
-        margin-left: 7rem;
+        margin-left: 0rem;
         text-align: center;
     }
 }
